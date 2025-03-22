@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn Tech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Learn Tech</h1>
+  </header>
+
+  <section id="hero">
+    <h2>Welcome to Learn Tech</h2>
+    <p>Your ultimate platform for mastering JavaScript, React, Android Studio, Python, and Node.js.</p>
+  </section>
+
+  <main>
+      <section id="sign-in">
+        <h2>Sign In</h2>
+        <form id="sign-in-form">
+          <div>
+            <label for="sign-in-username">Username:</label>
+            <input type="text" id="sign-in-username" name="sign-in-username" required>
+          </div>
+          <div>
+            <label for="sign-in-email">Email:</label>
+            <input type="email" id="sign-in-email" name="sign-in-email" required>
+          </div>
+          <div>
+            <label for="sign-in-password">Password:</label>
+            <input type="password" id="sign-in-password" name="sign-in-password" required>
+          </div>
+          <div>
+            <label for="sign-in-confirm-password">Confirm Password:</label>
+            <input type="password" id="sign-in-confirm-password" name="sign-in-confirm-password" required>
+          </div>
+          <button type="submit">Sign In</button>
+        </form>
+      </section>
+      <section id="login">
+      <h2>Login</h2>
+      <form id="login-form">
+        <div>
+          <label for="login-email-username">Email or Username:</label>
+          <input type="text" id="login-email-username" name="login-email-username" required>
+        </div>
+        <div>
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" name="login-password" required>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+      </section>
+      <section id="quiz">
+        <h2>Test Your Knowledge</h2>
+        <form id="quiz-form">
+          <div class="question">
+            <p>Question 1: What is the output of console.log(2 + '2')?</p>
+            <div class="options">
+              <input type="radio" id="q1-opt1" name="q1" value="4">
+              <label for="q1-opt1">4</label><br>
+              <input type="radio" id="q1-opt2" name="q1" value="22">
+              <label for="q1-opt2">22</label><br>
+              <input type="radio" id="q1-opt3" name="q1" value="undefined">
+              <label for="q1-opt3">undefined</label><br>
+              <input type="radio" id="q1-opt4" name="q1" value="Error">
+              <label for="q1-opt4">Error</label><br>
+            </div>
+          </div>
+          <div class="question">
+            <p>Question 2: What does DOM stand for?</p>
+            <div class="options">
+              <input type="radio" id="q2-opt1" name="q2" value="Document Object Model">
+              <label for="q2-opt1">Document Object Model</label><br>
+              <input type="radio" id="q2-opt2" name="q2" value="Data Object Management">
+              <label for="q2-opt2">Data Object Management</label><br>
+              <input type="radio" id="q2-opt3" name="q2" value="Design Order Method">
+              <label for="q2-opt3">Design Order Method</label><br>
+              <input type="radio" id="q2-opt4" name="q2" value="Digital Object Module">
+              <label for="q2-opt4">Digital Object Module</label><br>
+            </div>
+          </div>
+          <div class="question">
+            <p>Question 3: Which keyword is used to declare a constant variable in JavaScript?</p>
+            <div class="options">
+              <input type="radio" id="q3-opt1" name="q3" value="let">
+              <label for="q3-opt1">let</label><br>
+              <input type="radio" id="q3-opt2" name="q3" value="const">
+              <label for="q3-opt2">const</label><br>
+              <input type="radio" id="q3-opt3" name="q3" value="var">
+              <label for="q3-opt3">var</label><br>
+              <input type="radio" id="q3-opt4" name="q3" value="constant">
+              <label for="q3-opt4">constant</label><br>
+            </div>
+          </div>
+          <button type="submit">Submit Answers</button>
+        </form>
+        <div id="quiz-result"></div>
+      </section>
+    <section id="javascript">
+      <h2>JavaScript</h2>
+      <p>Content for JavaScript learning will go here.</p>
+    </section>
+    <section id="react">
+      <h2>React</h2>
+      <p>Content for React learning will go here.</p>
+    </section>
+    <section id="android-studio">
+      <h2>Android Studio</h2>
+      <p>Content for Android Studio learning will go here.</p>
+    </section>
+    <section id="python">
+      <h2>Python</h2>
+      <p>Content for Python learning will go here.</p>
+    </section>
+    <section id="node">
+      <h2>Node.js</h2>
+      <p>Content for Node.js learning will go here.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Learn Tech. All rights reserved.</p>
+  </footer>
+  <!-- <script type="module" src="/main.js"></script> -->
+  <script src="main.js"></script>
+</body>
+</html>
