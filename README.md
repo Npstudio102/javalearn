@@ -14,22 +14,8 @@ react
 css
 html
 > [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
-
-> [!WARNING]  
-> only policy acceptor can use it
-
-> [!CAUTION]
-> This is no reporting file
-[!MEANING]
-> this web notice as learning coding
-![JavaLearn Logo](javalearn.png)from PIL import Image, ImageDraw, ImageFont
+> Highlights information that users should take into account, even when 
+![JavaLearn Logo](javalearn.png)PIL import Image, ImageDraw, ImageFont
 
 # Create an image with white background
 image = Image.new('RGB', (400, 200), color='white')
