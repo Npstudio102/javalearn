@@ -13,3 +13,17 @@ nix
 react
 css
 html
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> only policy acceptor can use it
+
+> [!CAUTION]
+> This is no reporting file
