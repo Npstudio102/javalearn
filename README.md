@@ -28,3 +28,6 @@ html
 1.1:60FPS
 1.2:700FPS
 1.3:201FPS
+![Static Badge](https://img.shields.io/badge/Hi%20Everyone-cyan)
+![Static Badge](https://img.shields.io/badge/Javalearn-main-blue)
+
