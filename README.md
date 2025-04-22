@@ -21,3 +21,4 @@ html
 
 
  
+![Static Badge](https://img.shields.io/badge/License-cyan)
