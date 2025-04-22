@@ -23,4 +23,8 @@ html
  
 ![Static Badge](https://img.shields.io/badge/License-cyan)
 ![Static Badge](https://img.shields.io/badge/Javalearn-main-blue)
-
+## FPS OF WEB
+1.0:3FPS
+1.1:60FPS
+1.2:700FPS
+1.3:201FPS
