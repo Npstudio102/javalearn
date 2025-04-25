@@ -35,4 +35,6 @@ html
 ## git.morphine javalearnsetup-x64.exe
 this is for our setup but it doesent work yet
 ![Static Badge](https://img.shields.io/badge/label-red)
+![Static Badge](https://img.shields.io/badge/this%20is%20javalearn-cyan)
+
 
